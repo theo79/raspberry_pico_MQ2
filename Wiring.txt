@@ -1,0 +1,30 @@
+# Wiring Guide
+
+* LCD Wiring:
+
+    GND -> PICO GND
+    VCC -> PICO 40 (VBUS)
+    SDA -> PICO 1 (GP0)
+    SCL -> PICO 2 (GP1)
+
+* MQ2 Sensor Wiring:
+
+    VCC -> PICO 1 (VSYS)
+    GND -> PICO 3 (GND)
+    A.OUT -> PICO 10 (GP26)
+
+* Buzzer Wiring:
+
+    GND -> PICO 18 (GND)
+        -> PICO 19 (GP14)
+
+* Green LED Wiring:
+
+        -> PICO 21 (GP16) (Use 220Ω-330Ω resistor in the positive lead)
+        -> PICO 23 (GND)
+
+* Red LED Wiring:
+
+        -> PICO 20 (GP15) (Use 220Ω-330Ω resistor in the positive lead)
+        -> PICO 23 (GND)
+
