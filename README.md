@@ -2,6 +2,15 @@
 
 This project utilizes a Raspberry Pi Pico microcontroller to detect smoke and methane gas using an MQ2 sensor. It includes integration with an LCD 16x02, a buzzer, and LEDs to indicate various states of the system.
 
+**MQ2 sensor**  Ported from https://github.com/amperka/TroykaMQ
+    
+ Author: Alexey Tveritinov [kartun@yandex.ru]
+
+**I2C_LCD_driver**
+https://gist.github.com/DenisFromHR/cc863375a6e19dce359d
+
+By DenisFromHR (Denis Pleic)
+
 ### Components Used
 
 * Raspberry Pi Pico
