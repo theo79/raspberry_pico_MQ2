@@ -1,6 +1,5 @@
 # Gas Detection, written by Theocharis Anastopoulos, 2023
 
-# importing libraries 
 # MQ2 sensor
     # Ported from https://github.com/amperka/TroykaMQ
     # Author: Alexey Tveritinov [kartun@yandex.ru]
@@ -8,6 +7,8 @@
     ## Original code found at:
     # https://gist.github.com/DenisFromHR/cc863375a6e19dce359d
     # By DenisFromHR (Denis Pleic)
+
+#importing libraries
 from mq2 import MQ2
 import I2C_LCD_driver
 import utime
