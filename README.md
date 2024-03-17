@@ -1,3 +1,5 @@
+![Raspberry Pi Pico Gas Sensor Project](rpi_pico.jpg)
+
 # Raspberry Pi Pico Gas Sensor Project
 
 This project utilizes a Raspberry Pi Pico microcontroller to detect smoke and methane gas using an MQ2 sensor. It includes integration with an LCD 16x02, a buzzer, and LEDs to indicate various states of the system.
