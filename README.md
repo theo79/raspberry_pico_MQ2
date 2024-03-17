@@ -53,4 +53,6 @@ The MQ2 sensor can detect more gases than smoke and methane,
  
 but only these two are displayed due to the limitations of the LCD 16x02.
 
+**MQ2 sensor requires preheat time for better measurement-detection. Check datasheet.**
+
 Feel free to contribute or provide feedback on this project!
