@@ -44,8 +44,7 @@ lcd.lcd_display_string("Starting...")
 state = {'buzzer_state': False, 'led_state': False}  # Create a state dictionary
 
 def buzzer_thread(state):
-    log_file = open("gas_detection_log.txt", "a")  # Open the log file in append mode
-    while True:
+      while True:
         smoke = sensor.readSmoke()
         methane = sensor.readMethane()
         if float(smoke) > 50 or float(methane) > 50:
